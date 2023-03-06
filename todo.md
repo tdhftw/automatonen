@@ -1,7 +1,7 @@
 # TODO
 
 ## Misc
-- [ ] Switch to Convertkit
+- [x] Switch to Convertkit
 - [x] Media queries
 - [x] Favicon
 - [x] OG images
