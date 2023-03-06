@@ -1,6 +1,6 @@
 /* --------------------------------------------------
     MAIN CSS
-    Version: 0.1
+    Version: 0.2
 ----------------------------------------------------- */
 
 /* Fonts */
@@ -269,7 +269,7 @@ hr.symbol {
 
 
 /* Convertkit */
-.formkit-close {
+.formkit-slide-in .formkit-close {
     padding: 2px 5px;
     background-color: #fff;
     color: #5B3C3F;
