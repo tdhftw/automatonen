@@ -1,6 +1,6 @@
 /* --------------------------------------------------
     MAIN CSS
-    Version: 0.6
+    Version: 0.6.1
 ----------------------------------------------------- */
 
 /* Fonts */
@@ -174,7 +174,7 @@ h2 {
 .author .photo {
     background-image: url('../images/author.jpg');
     background-size: cover;
-    min-height: 200px;
+    min-height: 260px;
     width: 170px;
 }
 
