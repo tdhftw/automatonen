@@ -76,7 +76,10 @@ body {
     margin-bottom: var(--space-large);
 }
 
-.content {}
+.content {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+}
 
 article {
     margin: 0 auto var(--space-medium) auto;
@@ -318,12 +321,11 @@ hr.symbol {
     }
 }
 
-.splash-logo {
+.logo {
     -webkit-animation: flicker-1 2s linear 3s infinite both;
     animation: flicker-1 2s linear 3s infinite both;
     display: flex;
     flex-direction: column;
-    margin-top: -5%;
 }
 
 .logo-auto {
