@@ -1,6 +1,6 @@
 /* --------------------------------------------------
     MAIN CSS
-    Version: 0.7.0
+    Version: 0.7.1
 ----------------------------------------------------- */
 
 /* Fonts */
@@ -28,7 +28,8 @@
 :root {
     --white: #fff;
     --black: #141414;
-    --offwhite: #F5F5F5;
+    --offwhite: rgb(245, 245, 245);
+    --muted: rgba(245, 245, 245, 0.8);
     --dirt: #5B3C3F;
 
     --font-size-tiny: 0.8rem;
@@ -96,8 +97,7 @@ article {
 }
 
 .site-footer {
-    color: var(--offwhite);
-    opacity: 0.8;
+    color: var(--muted);
     padding-bottom: var(--space-medium);
 }
 
