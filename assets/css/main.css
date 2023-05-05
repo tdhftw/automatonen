@@ -1,6 +1,6 @@
 /* --------------------------------------------------
     MAIN CSS
-    Version: 0.8.0
+    Version: 0.9.0
 ----------------------------------------------------- */
 
 /* Fonts */
@@ -86,11 +86,6 @@ body {
     margin-bottom: var(--space-large);
 }
 
-.content {
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
-}
-
 article {
     margin: 0 auto var(--space-medium) auto;
     max-width: 540px;
@@ -158,6 +153,12 @@ h2 {
     margin-bottom: var(--space-small);
 }
 
+article h2 {
+    margin-top: var(--space-large);
+    margin-bottom: var(--space-default);
+    text-align: center;
+}
+
 
 /* Elements */
 
@@ -203,6 +204,11 @@ hr.symbol {
     margin: var(--space-large) auto;
     height: 55px;
     width: 55px;
+}
+
+article hr.symbol {
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -286,6 +292,10 @@ hr.symbol {
 
 .link-book > *::before {
     background-image: url('../images/link-book.png');
+}
+
+.link-news > *::before {
+    background-image: url('../images/link-news.png');
 }
 
 .links > li > a:hover::before {
