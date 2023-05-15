@@ -1,6 +1,6 @@
 /* --------------------------------------------------
     MAIN CSS
-    Version: 0.9.0
+    Version: 1.0.0
 ----------------------------------------------------- */
 
 /* Fonts */
@@ -209,6 +209,31 @@ hr.symbol {
 article hr.symbol {
     height: 30px;
     width: 30px;
+}
+
+.review {
+    border: 1px solid var(--dirt);
+    background-color: rgba(0, 0, 0, 0.25);
+    color: var(--white);
+    margin: var(--space-large) auto;
+    padding: var(--space-default);
+}
+
+.review > p {
+    font-size: var(--font-size-medium);
+    font-style: italic;
+}
+
+.review > p.review-grade {
+    font-style: normal;
+}
+
+.review cite::before {
+    content: '— ';
+}
+
+.review cite {
+    font-style: normal;
 }
 
 
